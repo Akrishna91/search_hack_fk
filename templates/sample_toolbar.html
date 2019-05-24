@@ -113,7 +113,7 @@
 			</a>
 			<div class="a-section scomp-information white-space-nowrap">
 				<span class="a-size-small" style="line-height: normal;display: inline-block;color: #fff;padding: 2px 4px 2px 6px;border-radius: 3px;font-weight: 500;font-size: 12px;vertical-align: middle;background-color: #388e3c;">{{item.rating}}<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMyIgaGVpZ2h0PSIxMiI+PHBhdGggZmlsbD0iI0ZGRiIgZD0iTTYuNSA5LjQzOWwtMy42NzQgMi4yMy45NC00LjI2LTMuMjEtMi44ODMgNC4yNTQtLjQwNEw2LjUuMTEybDEuNjkgNC4wMSA0LjI1NC40MDQtMy4yMSAyLjg4Mi45NCA0LjI2eiIvPjwvc3ZnPg==" style="margin: 2px 0 0 2px;height: 10px;"></span>
-				<span class="reviews" style="padding-left: 8px;font-weight: 500;color: #878787;">Based on {{item.reviewCount}} reviews </abbr>
+                <span class="reviews" style="padding-left: 8px;font-weight: 500;color: #878787;">Based on {{item.reviewCount}} reviews </span>
 				<img height="21" src="//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/fa_8b4b59.png" style="padding-left: 8px">
 				</a>
 			</div>
@@ -392,7 +392,7 @@
                             </div>
                         </div>
                         <div class="a-section a-spacing-none a-text-left more-results-container">
-                            <a id="moreResultsLink" data-metric-target="MoreResults" class="a-size-base a-align-top a-link-normal more-results-link ui-click-metric" target="_blank" rel="next " title="More results on Flipkart" href="https://www.amazon.in/s/?field-keywords=shirts&amp;tag=amz-mkt-chr-in-21&amp;ascsubtag=1ba00-01000-org00-mac00-other-nomod-in000-pcomp-feature-scomp-wm-5&amp;ref=aa_scomp">
+                            <a id="moreResultsLink" data-metric-target="MoreResults" class="a-size-base a-align-top a-link-normal more-results-link ui-click-metric" target="_blank" rel="next " title="More results on Flipkart" href="{{result.json["searchUrl"]}}">
                             <span class="text">More results on Flipkart</span><span class="right-pointing-triangle"> ▸ </span>
                             </a>
                         </div>
@@ -661,7 +661,7 @@
                             </div>
                         </div>
                         <div class="a-section a-spacing-none a-text-left more-results-container">
-                            <a id="moreResultsLink" data-metric-target="MoreResults" class="a-size-base a-align-top a-link-normal more-results-link ui-click-metric" target="_blank" rel="next " title="More results on Flipkart" href="https://www.amazon.in/s/?field-keywords=shirts&amp;tag=amz-mkt-chr-in-21&amp;ascsubtag=1ba00-01000-org00-mac00-other-nomod-in000-pcomp-feature-scomp-wm-5&amp;ref=aa_scomp">
+                            <a id="moreResultsLink" data-metric-target="MoreResults" class="a-size-base a-align-top a-link-normal more-results-link ui-click-metric" target="_blank" rel="next " title="More results on Flipkart" href={{result.json["searchUrl"]}}>
                             <span class="text">More results on Flipkart</span><span class="right-pointing-triangle"> ▸ </span>
                             </a>
                         </div>
